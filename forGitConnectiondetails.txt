@@ -1,0 +1,36 @@
+
+RootUser@root MINGW32 ~/Desktop/Spring_project
+$ git config --global user.name venkatob
+
+RootUser@root MINGW32 ~/Desktop/Spring_project
+$ git config --global user.email venkatob7@gmail.com
+
+RootUser@root MINGW32 ~/Desktop/Spring_project
+$ git clone ??https://github.com/venkatob/Spring_project.git
+Cloning into 'Spring_project'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+RootUser@root MINGW32 ~/Desktop/Spring_project
+$ cd Spring_project
+
+RootUser@root MINGW32 ~/Desktop/Spring_project/Spring_project (master)
+$ git remote
+origin
+
+RootUser@root MINGW32 ~/Desktop/Spring_project/Spring_project (master)
+$ git remote -v
+origin  https://github.com/venkatob/Spring_project.git (fetch)
+origin  https://github.com/venkatob/Spring_project.git (push)
+
+
+RootUser@root MINGW32 ~/Desktop/Spring_project/Spring_project (master)
+$ start forGitConneciton.txt
+The system cannot find the file forGitConneciton.txt.
+
+RootUser@root MINGW32 ~/Desktop/Spring_project/Spring_project (master)
+$ start forGitConnection.txt
+
